@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SearchBar from "./components/searchCity";
+import searchCity from "./components/searchCity";
 import WeatherInfo from "./components/weatherInfo";
 import "./App.css";
 
@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="app">
       <h1>Weather App</h1>
-      <SearchBar city={city} setCity={setCity} onSearch={getWeather} />
+      <searchCity  city={city} setCity={setCity} onSearch={getWeather} />
 
       {error && <p className="error">{error}</p>}
 

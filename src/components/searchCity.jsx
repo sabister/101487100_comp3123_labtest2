@@ -1,11 +1,11 @@
 import React from "react";
 
-const SearchBar = ({ city, setCity, onSearch }) => {
+const searchCity = ({ city, setCity, onSearch }) => {
   return (
     <div className="search">
       <input
         type="text"
-        placeholder="Enter city name"
+        placeholder="Enter the city's name you want to search"
         value={city}
         onChange={(e) => setCity(e.target.value)}
       />
@@ -14,4 +14,4 @@ const SearchBar = ({ city, setCity, onSearch }) => {
   );
 };
 
-export default SearchBar;
+export default searchCity;
