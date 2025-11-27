@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBar = ({ city, setCity, onSearch }) => {
   return (
-    <div className="search-container">
+    <div className="search">
       <input
         type="text"
         placeholder="Enter city name"

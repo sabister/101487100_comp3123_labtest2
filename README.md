@@ -5,9 +5,9 @@ Project description and setup steps
 Which API you used
 -api.openweathermap.    
 Screenshots of your app
-![appp Screenshot](images/labtest2_appPage.png)
-![postman1 Screenshot](images/labtest2_postman.png)
-![postman2 Screenshot](images/labtest2_postman2.png)
-
+![appp Screenshot](images/labtest2_appPage.jpg)
+![postman1 Screenshot](images/labtest2_postman.jpg)
+![postman2 Screenshot](images/labtest2_postman2.jpg)
+![vercel Screenshot](images/labtest2_Vercel.jpg)
 Any notes or assumptions
 -no

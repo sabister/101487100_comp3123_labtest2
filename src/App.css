@@ -4,13 +4,13 @@
   font-family: "Arial", sans-serif;
 }
 
-.search-container input {
+.search input {
   padding: 10px;
   width: 250px;
   border: 1px solid #bbb;
 }
 
-.search-container button {
+.search button {
   padding: 10px 20px;
   margin-left: 10px;
   background-color: #000000;
