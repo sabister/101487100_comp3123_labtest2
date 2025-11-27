@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import searchCity from "./components/searchCity";
+import SearchCity from "./components/searchCity";
 import WeatherInfo from "./components/weatherInfo";
 import "./App.css";
 
@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="app">
       <h1>Weather App</h1>
-      <searchCity  city={city} setCity={setCity} onSearch={getWeather} />
+      <SearchCity city={city} setCity={setCity} onSearch={Weather} />
 
       {error && <p className="error">{error}</p>}
 
